@@ -407,171 +407,171 @@ Domain-specific scenarios that stress different combinations of perception, memo
 
 Covers both training corpora and widely used QA benchmarks (many pre-MLLM datasets are still used for evaluation).
 
-| Year | Acronym | Paper | Scale | Code / Project |
-| :---: | :---: | :--- | :---: | :---: |
-| 2017 | MSVD-QA | [Video Question Answering via Gradually Refined Attention over Appearance and Motion](https://dl.acm.org/doi/10.1145/3123266.3123427) | 50K | - |
-| 2017 | TGIF-QA | [TGIF-QA: Toward Spatio-Temporal Reasoning in Visual Question Answering](https://arxiv.org/abs/1704.04497) | 165K | [Code](https://github.com/YunseokJANG/tgif-qa) |
-| 2018 | TVQA | [TVQA: Localized, Compositional Video Question Answering](https://arxiv.org/abs/1809.01696) | 152K | [Code](https://github.com/jayleicn/TVQA) |
-| 2019 | ActivityNet-QA | [ActivityNet-QA: A Dataset for Understanding Complex Web Videos via Question Answering](https://arxiv.org/abs/1906.02467) | 58K | [Code](https://github.com/MILVLG/activitynet-qa) |
-| 2020 | CLEVRER | [CLEVRER: Collision Events for Video Representation and Reasoning](https://arxiv.org/abs/1910.01442) | 305K | [Project](http://clevrer.csail.mit.edu/) |
-| 2021 | NExT-QA | [NExT-QA: Next Phase of Question-Answering to Explaining Temporal Actions](https://arxiv.org/abs/2105.08276) | 52K | [Code](https://github.com/doc-doc/NExT-QA) |
-| 2021 | HowToVQA69M | [Just Ask: Learning to Answer Questions from Millions of Narrated Videos](https://arxiv.org/abs/2012.00451) | 69M | [Code](https://github.com/antoyang/just-ask) |
-| 2024 | Video-ChatGPT (VideoInstruct100K) | [Video-ChatGPT: Towards Detailed Video Understanding via Large Vision and Language Models](https://arxiv.org/abs/2306.05424) | 100K | [Code](https://github.com/mbzuai-oryx/Video-ChatGPT) |
-| 2024 | VideoChat2-IT | [MVBench: A Comprehensive Multi-modal Video Understanding Benchmark](https://arxiv.org/abs/2311.17005) | 1.9M | [Code](https://github.com/OpenGVLab/Ask-Anything) |
-| 2024 | LLaVA-Video-178K | [Video Instruction Tuning with Synthetic Data](https://arxiv.org/abs/2410.02713) | 1.3M | [Code](https://github.com/LLaVA-VL/LLaVA-NeXT) |
-| 2024 | VideoCoT | [VideoCoT: A Video Chain-of-Thought Dataset with Active Annotation Tool](https://arxiv.org/abs/2407.05355) | 22K | - |
-| 2025 | VideoEspresso | [VideoEspresso: A Large-Scale Chain-of-Thought Dataset for Fine-Grained Video Reasoning via Core Frame Selection](https://arxiv.org/abs/2411.14794) | 202K | [Code](https://github.com/hshjerry/VideoEspresso) |
-| 2025 | Video-R1 | [Video-R1: Reinforcing Video Reasoning in MLLMs](https://arxiv.org/abs/2503.21776) | 165K + 260K | [Code](https://github.com/tulerfeng/Video-R1) |
-| 2025 | VideoRFT | [VideoRFT: Incentivizing Video Reasoning Capability in MLLMs via Reinforced Fine-Tuning](https://arxiv.org/abs/2505.12434) | 102K + 310K | [Code](https://github.com/QiWang98/VideoRFT) |
-| 2025 | LongVideo-Reason | [Scaling RL to Long Videos](https://arxiv.org/abs/2507.07966) | 52K | [Code](https://github.com/NVlabs/Long-RL) |
-| 2025 | STGR | [Open-o3 Video: Grounded Video Reasoning with Explicit Spatio-Temporal Evidence](https://arxiv.org/abs/2510.20579) | 30K + 36K | [Code](https://github.com/marinero4972/Open-o3-Video) |
-| 2025 | ReWatch-CoT | [ReWatch-R1: Boosting Complex Video Reasoning in Large Vision-Language Models through Agentic Data Synthesis](https://arxiv.org/abs/2509.23652) | 135K | [Code](https://github.com/alibaba/ReWatch-R1) |
-| 2025 | VideoZoomer | [VideoZoomer: Reinforcement-Learned Temporal Focusing for Long Video Reasoning](https://arxiv.org/abs/2512.22315) | 11K | [Code](https://github.com/zsgvivo/VideoZoomer) |
-| 2025 | Conan | [Conan: Progressive Learning to Reason Like a Detective over Multi-Scale Visual Evidence](https://arxiv.org/abs/2510.20470) | 91K | [Code](https://github.com/ariesssxu/Conan-Active-Reasoning) |
-| 2026 | Seeker-173K | [Video-o3: Native Interleaved Clue Seeking for Long Video Multi-Hop Reasoning](https://arxiv.org/abs/2601.23224) | 173K | [Code](https://github.com/MCG-NJU/Video-o3) |
-| 2026 | LongVideo-R1 | [LongVideo-R1: Smart Navigation for Low-cost Long Video Understanding](https://arxiv.org/abs/2602.20913) | 33K | [Code](https://github.com/qiujihao19/LongVideo-R1) |
+| Year | Acronym | Paper | Code / Project |
+| :---: | :---: | :--- | :---: |
+| 2017 | MSVD-QA | [Video Question Answering via Gradually Refined Attention over Appearance and Motion](https://dl.acm.org/doi/10.1145/3123266.3123427) | - |
+| 2017 | TGIF-QA | [TGIF-QA: Toward Spatio-Temporal Reasoning in Visual Question Answering](https://arxiv.org/abs/1704.04497) | [Code](https://github.com/YunseokJANG/tgif-qa) |
+| 2018 | TVQA | [TVQA: Localized, Compositional Video Question Answering](https://arxiv.org/abs/1809.01696) | [Code](https://github.com/jayleicn/TVQA) |
+| 2019 | ActivityNet-QA | [ActivityNet-QA: A Dataset for Understanding Complex Web Videos via Question Answering](https://arxiv.org/abs/1906.02467) | [Code](https://github.com/MILVLG/activitynet-qa) |
+| 2020 | CLEVRER | [CLEVRER: Collision Events for Video Representation and Reasoning](https://arxiv.org/abs/1910.01442) | [Project](http://clevrer.csail.mit.edu/) |
+| 2021 | NExT-QA | [NExT-QA: Next Phase of Question-Answering to Explaining Temporal Actions](https://arxiv.org/abs/2105.08276) | [Code](https://github.com/doc-doc/NExT-QA) |
+| 2021 | HowToVQA69M | [Just Ask: Learning to Answer Questions from Millions of Narrated Videos](https://arxiv.org/abs/2012.00451) | [Code](https://github.com/antoyang/just-ask) |
+| 2024 | VideoInstruct100K | [Video-ChatGPT: Towards Detailed Video Understanding via Large Vision and Language Models](https://arxiv.org/abs/2306.05424) | [Code](https://github.com/mbzuai-oryx/Video-ChatGPT) |
+| 2024 | VideoChat2-IT | [MVBench: A Comprehensive Multi-modal Video Understanding Benchmark](https://arxiv.org/abs/2311.17005) | [Code](https://github.com/OpenGVLab/Ask-Anything) |
+| 2024 | LLaVA-Video-178K | [Video Instruction Tuning with Synthetic Data](https://arxiv.org/abs/2410.02713) | [Code](https://github.com/LLaVA-VL/LLaVA-NeXT) |
+| 2024 | VideoCoT | [VideoCoT: A Video Chain-of-Thought Dataset with Active Annotation Tool](https://arxiv.org/abs/2407.05355) | - |
+| 2025 | VideoEspresso | [VideoEspresso: A Large-Scale Chain-of-Thought Dataset for Fine-Grained Video Reasoning via Core Frame Selection](https://arxiv.org/abs/2411.14794) | [Code](https://github.com/hshjerry/VideoEspresso) |
+| 2025 | Video-R1 | [Video-R1: Reinforcing Video Reasoning in MLLMs](https://arxiv.org/abs/2503.21776) | [Code](https://github.com/tulerfeng/Video-R1) |
+| 2025 | VideoRFT | [VideoRFT: Incentivizing Video Reasoning Capability in MLLMs via Reinforced Fine-Tuning](https://arxiv.org/abs/2505.12434) | [Code](https://github.com/QiWang98/VideoRFT) |
+| 2025 | LongVideo-Reason | [Scaling RL to Long Videos](https://arxiv.org/abs/2507.07966) | [Code](https://github.com/NVlabs/Long-RL) |
+| 2025 | STGR | [Open-o3 Video: Grounded Video Reasoning with Explicit Spatio-Temporal Evidence](https://arxiv.org/abs/2510.20579) | [Code](https://github.com/marinero4972/Open-o3-Video) |
+| 2025 | ReWatch-CoT | [ReWatch-R1: Boosting Complex Video Reasoning in Large Vision-Language Models through Agentic Data Synthesis](https://arxiv.org/abs/2509.23652) | [Code](https://github.com/alibaba/ReWatch-R1) |
+| 2025 | VideoZoomer | [VideoZoomer: Reinforcement-Learned Temporal Focusing for Long Video Reasoning](https://arxiv.org/abs/2512.22315) | [Code](https://github.com/zsgvivo/VideoZoomer) |
+| 2025 | Conan | [Conan: Progressive Learning to Reason Like a Detective over Multi-Scale Visual Evidence](https://arxiv.org/abs/2510.20470) | [Code](https://github.com/ariesssxu/Conan-Active-Reasoning) |
+| 2026 | Seeker-173K | [Video-o3: Native Interleaved Clue Seeking for Long Video Multi-Hop Reasoning](https://arxiv.org/abs/2601.23224) | [Code](https://github.com/MCG-NJU/Video-o3) |
+| 2026 | LongVideo-R1 | [LongVideo-R1: Smart Navigation for Low-cost Long Video Understanding](https://arxiv.org/abs/2602.20913) | [Code](https://github.com/qiujihao19/LongVideo-R1) |
 
 #### 5.1.2 Video Captioning
 
 Includes classical clip / dense / narration-level corpora, MLLM-era recaptioned corpora, and grounded / omni-modal captioning data.
 
-| Year | Acronym | Paper | Scale | Code / Project |
-| :---: | :---: | :--- | :---: | :---: |
-| 2016 | MSR-VTT | [MSR-VTT: A Large Video Description Dataset for Bridging Video and Language](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/06/cvpr16.msr-vtt.tmei_-1.pdf) | 200K | - |
-| 2017 | ActivityNet Captions | [Dense-Captioning Events in Videos](https://arxiv.org/abs/1705.00754) | 100K | [Project](https://cs.stanford.edu/people/ranjaykrishna/densevid/) |
-| 2018 | YouCook2 | [Towards Automatic Learning of Procedures from Web Instructional Videos](https://arxiv.org/abs/1703.09788) | 14K | [Project](http://youcook2.eecs.umich.edu/) |
-| 2019 | VATEX | [VATEX: A Large-Scale, High-Quality Multilingual Dataset for Video-and-Language Research](https://arxiv.org/abs/1904.03493) | 825K | [Project](https://eric-xw.github.io/vatex-website/) |
-| 2020 | TVC | [TVR: A Large-Scale Dataset for Video-Subtitle Moment Retrieval](https://arxiv.org/abs/2001.09099) | 109K | [Code](https://github.com/jayleicn/TVRetrieval) |
-| 2020 | ViTT | [Multimodal Pretraining for Dense Video Captioning](https://arxiv.org/abs/2011.11760) | 8K | [Code](https://github.com/google-research-datasets/Video-Timeline-Tags-ViTT) |
-| 2022 | Ego4D | [Ego4D: Around the World in 3,000 Hours of Egocentric Video](https://arxiv.org/abs/2110.07058) | 3.6K hrs | [Project](https://ego4d-data.org/) |
-| 2024 | Panda-70M | [Panda-70M: Captioning 70M Videos with Multiple Cross-Modality Teachers](https://arxiv.org/abs/2402.19479) | 70M | [Code](https://github.com/snap-research/Panda-70M) |
-| 2024 | ShareGPT4Video | [ShareGPT4Video: Improving Video Understanding and Generation with Better Captions](https://arxiv.org/abs/2406.04325) | 4.8M | [Code](https://github.com/ShareGPT4Omni/ShareGPT4Video) |
-| 2024 | Video ReCap | [Video ReCap: Recursive Captioning of Hour-Long Videos](https://arxiv.org/abs/2402.13250) | 5.3M | [Code](https://github.com/md-mohaiminul/VideoRecap) |
-| 2024 | Vript | [Vript: A Video Is Worth Thousands of Words](https://arxiv.org/abs/2406.06040) | 420K | [Code](https://github.com/mutonix/Vript) |
-| 2024 | MiraData | [MiraData: A Large-Scale Video Dataset with Long Durations and Structured Captions](https://arxiv.org/abs/2407.06358) | 330K | [Code](https://github.com/mira-space/MiraData) |
-| 2024 | FineVideo | [FineVideo Dataset](https://huggingface.co/datasets/HuggingFaceFV/finevideo) | 43.8K | [Dataset](https://huggingface.co/datasets/HuggingFaceFV/finevideo) |
-| 2025 | Tarsier2-Recap-585K | [Tarsier2: Advancing Large Vision-Language Models from Detailed Video Description to Comprehensive Video Understanding](https://arxiv.org/abs/2501.07888) | 585K | [Code](https://github.com/bytedance/tarsier) |
-| 2025 | UltraVideo | [UltraVideo: High-Quality UHD Video Dataset with Comprehensive Captions](https://arxiv.org/abs/2506.13691) | 58.8K | [Project](https://xzc-zju.github.io/projects/UltraVideo/) |
-| 2025 | HMD-270K | [Towards Fine-Grained Human Motion Video Captioning](https://arxiv.org/abs/2509.02589) | 270K | - |
-| 2025 | ViCaS | [ViCaS: A Dataset for Combining Holistic and Pixel-level Video Understanding using Captions with Grounded Segmentation](https://arxiv.org/abs/2412.09754) | 7.3K | [Code](https://github.com/Ali2500/ViCaS) |
-| 2025 | iGround / HowToGround1M | [Large-scale Pre-training for Grounded Video Caption Generation](https://arxiv.org/abs/2503.10781) | 1M | - |
-| 2025 | PerceptionLM (PLM-Video) | [PerceptionLM: Open-Access Data and Models for Detailed Visual Understanding](https://arxiv.org/abs/2504.13180) | 6M+ | [Code](https://github.com/facebookresearch/perception_models) |
-| 2025 | UGC-VideoCaptioner | [UGC-VideoCaptioner: An Omni UGC Video Detail Caption Model and New Benchmarks](https://arxiv.org/abs/2507.11336) | - | - |
-| 2026 | TimeChatCap-42K | [TimeChat-Captioner: Scripting Multi-scene Videos with Time-aware and Structural Audio-Visual Captions](https://arxiv.org/abs/2602.08711) | 42K | - |
+| Year | Acronym | Paper | Code / Project |
+| :---: | :---: | :--- | :---: |
+| 2016 | MSR-VTT | [MSR-VTT: A Large Video Description Dataset for Bridging Video and Language](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/06/cvpr16.msr-vtt.tmei_-1.pdf) | - |
+| 2017 | ActivityNet Captions | [Dense-Captioning Events in Videos](https://arxiv.org/abs/1705.00754) | [Project](https://cs.stanford.edu/people/ranjaykrishna/densevid/) |
+| 2018 | YouCook2 | [Towards Automatic Learning of Procedures from Web Instructional Videos](https://arxiv.org/abs/1703.09788) | [Project](http://youcook2.eecs.umich.edu/) |
+| 2019 | VATEX | [VATEX: A Large-Scale, High-Quality Multilingual Dataset for Video-and-Language Research](https://arxiv.org/abs/1904.03493) | [Project](https://eric-xw.github.io/vatex-website/) |
+| 2020 | TVC | [TVR: A Large-Scale Dataset for Video-Subtitle Moment Retrieval](https://arxiv.org/abs/2001.09099) | [Code](https://github.com/jayleicn/TVRetrieval) |
+| 2020 | ViTT | [Multimodal Pretraining for Dense Video Captioning](https://arxiv.org/abs/2011.11760) | [Code](https://github.com/google-research-datasets/Video-Timeline-Tags-ViTT) |
+| 2022 | Ego4D | [Ego4D: Around the World in 3,000 Hours of Egocentric Video](https://arxiv.org/abs/2110.07058) | [Project](https://ego4d-data.org/) |
+| 2024 | Panda-70M | [Panda-70M: Captioning 70M Videos with Multiple Cross-Modality Teachers](https://arxiv.org/abs/2402.19479) | [Code](https://github.com/snap-research/Panda-70M) |
+| 2024 | ShareGPT4Video | [ShareGPT4Video: Improving Video Understanding and Generation with Better Captions](https://arxiv.org/abs/2406.04325) | [Code](https://github.com/ShareGPT4Omni/ShareGPT4Video) |
+| 2024 | Video ReCap | [Video ReCap: Recursive Captioning of Hour-Long Videos](https://arxiv.org/abs/2402.13250) | [Code](https://github.com/md-mohaiminul/VideoRecap) |
+| 2024 | Vript | [Vript: A Video Is Worth Thousands of Words](https://arxiv.org/abs/2406.06040) | [Code](https://github.com/mutonix/Vript) |
+| 2024 | MiraData | [MiraData: A Large-Scale Video Dataset with Long Durations and Structured Captions](https://arxiv.org/abs/2407.06358) | [Code](https://github.com/mira-space/MiraData) |
+| 2024 | FineVideo | [FineVideo Dataset](https://huggingface.co/datasets/HuggingFaceFV/finevideo) | [Dataset](https://huggingface.co/datasets/HuggingFaceFV/finevideo) |
+| 2025 | Tarsier2-Recap-585K | [Tarsier2: Advancing Large Vision-Language Models from Detailed Video Description to Comprehensive Video Understanding](https://arxiv.org/abs/2501.07888) | [Code](https://github.com/bytedance/tarsier) |
+| 2025 | UltraVideo | [UltraVideo: High-Quality UHD Video Dataset with Comprehensive Captions](https://arxiv.org/abs/2506.13691) | [Project](https://xzc-zju.github.io/projects/UltraVideo/) |
+| 2025 | HMD-270K | [OwlCap: Harmonizing Motion-Detail for Video Captioning via HMD-270K and Caption Set Equivalence Reward](https://arxiv.org/abs/2508.18634) | - |
+| 2025 | ViCaS | [ViCaS: A Dataset for Combining Holistic and Pixel-level Video Understanding using Captions with Grounded Segmentation](https://arxiv.org/abs/2412.09754) | [Code](https://github.com/Ali2500/ViCaS) |
+| 2025 | iGround / HowToGround1M | [Large-scale Pre-training for Grounded Video Caption Generation](https://arxiv.org/abs/2503.10781) | - |
+| 2025 | PerceptionLM (PLM-Video) | [PerceptionLM: Open-Access Data and Models for Detailed Visual Understanding](https://arxiv.org/abs/2504.13180) | [Code](https://github.com/facebookresearch/perception_models) |
+| 2025 | UGC-VideoCaptioner | [UGC-VideoCaptioner: An Omni UGC Video Detail Caption Model and New Benchmarks](https://arxiv.org/abs/2507.11336) | - |
+| 2026 | TimeChatCap-42K | [TimeChat-Captioner: Scripting Multi-scene Videos with Time-aware and Structural Audio-Visual Captions](https://arxiv.org/abs/2602.08711) | - |
 
 #### 5.1.3 Video Temporal Grounding
 
 Includes large-scale narrated-video pretraining corpora, MLLM-era instruction tuning corpora, and reasoning-/RL-oriented re-annotated data.
 
-| Year | Acronym | Paper | Scale | Code / Project |
-| :---: | :---: | :--- | :---: | :---: |
-| 2021 | YT-Temporal-180M | [MERLOT: Multimodal Neural Script Knowledge Models](https://arxiv.org/abs/2106.02636) | 180M | [Project](https://rowanzellers.com/merlot/) |
-| 2023 | TimeIT | [TimeChat: A Time-sensitive Multimodal Large Language Model for Long Video Understanding](https://arxiv.org/abs/2312.02051) | 125K | [Code](https://github.com/RenShuhuai-Andy/TimeChat) |
-| 2024 | ActivityNet-RTL | [LITA: Language Instructed Temporal-Localization Assistant](https://arxiv.org/abs/2403.19046) | 33.5K | [Code](https://github.com/NVlabs/LITA) |
-| 2024 | VTimeLLM Data | [VTimeLLM: Empower LLM to Grasp Video Moments](https://arxiv.org/abs/2311.18445) | 134K | [Code](https://github.com/huangb23/VTimeLLM) |
-| 2024 | VTG-IT-120K | [VTG-LLM: Integrating Timestamp Knowledge into Video LLMs for Enhanced Video Temporal Grounding](https://arxiv.org/abs/2405.13382) | 120K | [Code](https://github.com/gyxxyg/VTG-LLM) |
-| 2024 | E.T. Instruct 164K | [E.T. Bench: Towards Open-Ended Event-Level Video-Language Understanding](https://arxiv.org/abs/2409.18111) | 164K | [Code](https://github.com/PolyU-ChenLab/ETBench) |
-| 2024 | Moment-10M | [Momentor: Advancing Video Large Language Model with Fine-Grained Temporal Reasoning](https://arxiv.org/abs/2402.11435) | 10.4M | [Code](https://github.com/DCDmllm/Momentor) |
-| 2024 | Vid-Morp | [Vid-Morp: Video Moment Retrieval Pretraining from Unlabeled Videos in the Wild](https://arxiv.org/abs/2412.00811) | 200.3K | [Code](https://github.com/baopj/Vid-Morp) |
-| 2025 | TimePro | [TimeSuite: Improving MLLMs for Long Video Understanding via Grounded Tuning](https://arxiv.org/abs/2410.19702) | 349K | [Code](https://github.com/OpenGVLab/TimeSuite) |
-| 2025 | VideoITG | [VideoITG: Multimodal Video Understanding with Instructed Temporal Grounding](https://arxiv.org/abs/2507.13353) | 500K | [Code](https://github.com/NVlabs/VideoITG) |
-| 2025 | TimeLens-100K | [TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs](https://arxiv.org/abs/2512.14698) | 100K | [Code](https://github.com/TencentARC/TimeLens) |
-| 2025 | TimeRFT | [Time-R1: Post-Training Large Vision Language Model for Temporal Video Grounding](https://arxiv.org/abs/2503.13377) | 339K → 2.5K | [Code](https://github.com/xiaomi-research/time-r1) |
-| 2025 | TVG-R1 | [Datasets and Recipes for Video Temporal Grounding via Reinforcement Learning](https://arxiv.org/abs/2507.18100) | 7-dataset suite | - |
-| 2025 | VTTS-80K | [VideoChat-R1.5: Visual Test-Time Scaling to Reinforce Multimodal Reasoning by Iterative Perception](https://arxiv.org/abs/2509.21100) | 80K | [Code](https://github.com/OpenGVLab/VideoChat-R1) |
-| 2025 | MTVR | [Thinking With Videos: Multimodal Tool-Augmented Reinforcement Learning for Long Video Reasoning](https://arxiv.org/abs/2508.04416) | 72K SFT + 110K RL | - |
+| Year | Acronym | Paper | Code / Project |
+| :---: | :---: | :--- | :---: |
+| 2021 | YT-Temporal-180M | [MERLOT: Multimodal Neural Script Knowledge Models](https://arxiv.org/abs/2106.02636) | [Project](https://rowanzellers.com/merlot/) |
+| 2023 | TimeIT | [TimeChat: A Time-sensitive Multimodal Large Language Model for Long Video Understanding](https://arxiv.org/abs/2312.02051) | [Code](https://github.com/RenShuhuai-Andy/TimeChat) |
+| 2024 | ActivityNet-RTL | [LITA: Language Instructed Temporal-Localization Assistant](https://arxiv.org/abs/2403.19046) | [Code](https://github.com/NVlabs/LITA) |
+| 2024 | VTimeLLM Data | [VTimeLLM: Empower LLM to Grasp Video Moments](https://arxiv.org/abs/2311.18445) | [Code](https://github.com/huangb23/VTimeLLM) |
+| 2024 | VTG-IT-120K | [VTG-LLM: Integrating Timestamp Knowledge into Video LLMs for Enhanced Video Temporal Grounding](https://arxiv.org/abs/2405.13382) | [Code](https://github.com/gyxxyg/VTG-LLM) |
+| 2024 | E.T. Instruct 164K | [E.T. Bench: Towards Open-Ended Event-Level Video-Language Understanding](https://arxiv.org/abs/2409.18111) | [Code](https://github.com/PolyU-ChenLab/ETBench) |
+| 2024 | Moment-10M | [Momentor: Advancing Video Large Language Model with Fine-Grained Temporal Reasoning](https://arxiv.org/abs/2402.11435) | [Code](https://github.com/DCDmllm/Momentor) |
+| 2024 | Vid-Morp | [Vid-Morp: Video Moment Retrieval Pretraining from Unlabeled Videos in the Wild](https://arxiv.org/abs/2412.00811) | [Code](https://github.com/baopj/Vid-Morp) |
+| 2025 | TimePro | [TimeSuite: Improving MLLMs for Long Video Understanding via Grounded Tuning](https://arxiv.org/abs/2410.19702) | [Code](https://github.com/OpenGVLab/TimeSuite) |
+| 2025 | VideoITG | [VideoITG: Multimodal Video Understanding with Instructed Temporal Grounding](https://arxiv.org/abs/2507.13353) | [Code](https://github.com/NVlabs/VideoITG) |
+| 2025 | TimeLens-100K | [TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs](https://arxiv.org/abs/2512.14698) | [Code](https://github.com/TencentARC/TimeLens) |
+| 2025 | TimeRFT | [Time-R1: Post-Training Large Vision Language Model for Temporal Video Grounding](https://arxiv.org/abs/2503.13377) | [Code](https://github.com/xiaomi-research/time-r1) |
+| 2025 | TVG-R1 | [Datasets and Recipes for Video Temporal Grounding via Reinforcement Learning](https://arxiv.org/abs/2507.18100) | - |
+| 2025 | VTTS-80K | [VideoChat-R1.5: Visual Test-Time Scaling to Reinforce Multimodal Reasoning by Iterative Perception](https://arxiv.org/abs/2509.21100) | [Code](https://github.com/OpenGVLab/VideoChat-R1) |
+| 2025 | MTVR | [Thinking With Videos: Multimodal Tool-Augmented Reinforcement Learning for Long Video Reasoning](https://arxiv.org/abs/2508.04416) | - |
 
 #### 5.1.4 Long Video Memory
 
-| Year | Acronym | Paper | Scale | Code / Project |
-| :---: | :---: | :--- | :---: | :---: |
-| 2025 | VideoMarathon | [Unleashing Hour-Scale Video Training for Long Video-Language Understanding](https://arxiv.org/abs/2506.05332) | 3.3M | [Code](https://github.com/jylins/hourllava) |
-| 2026 | M3-Agent | [Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory](https://arxiv.org/abs/2508.09736) | 10.9K videos | [Code](https://github.com/ByteDance-Seed/m3-agent) |
+| Year | Acronym | Paper | Code / Project |
+| :---: | :---: | :--- | :---: |
+| 2025 | VideoMarathon | [Unleashing Hour-Scale Video Training for Long Video-Language Understanding](https://arxiv.org/abs/2506.05332) | [Code](https://github.com/jylins/hourllava) |
+| 2026 | M3-Bench | [Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory](https://arxiv.org/abs/2508.09736) | [Code](https://github.com/ByteDance-Seed/m3-agent) |
 
 ### 5.2 Evaluation Benchmarks
 
-Categorized into six capability dimensions. Type abbreviations: MCQ (multiple-choice), OE (open-ended), Gen (generation), Chat (dialogue).
+Categorized into six capability dimensions.
 
 #### 5.2.1 General Video Understanding
 
-| Year | Venue | Acronym | Paper | Scale | Code / Project |
-| :---: | :---: | :---: | :--- | :---: | :---: |
-| 2024 | CVPR | Video-MME | [Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis](https://arxiv.org/abs/2405.21075) | 2.7K QA | [Code](https://github.com/MME-Benchmarks/Video-MME) |
-| 2024 | NeurIPS | MMBench-Video | [MMBench-Video: A Long-Form Multi-Shot Benchmark for Holistic Video Understanding](https://arxiv.org/abs/2406.14515) | 2K QA | [Code](https://github.com/open-compass/VLMEvalKit) |
-| 2025 | arXiv | Video-MME v2 | [Video-MME v2: Evaluating Multimodal LLMs with Cohesive Question Groups on Fresh Videos](https://arxiv.org/abs/2510.21075) | 3.2K QA | [Code](https://github.com/MME-Benchmarks/Video-MME) |
-| 2025 | ICLR | MMWorld | [MMWorld: Towards Multi-Discipline Multi-Faceted World Model Evaluation in Videos](https://arxiv.org/abs/2406.08407) | 6.6K QA | [Code](https://github.com/eric-ai-lab/MMWorld) |
+| Year | Venue | Acronym | Paper | Code / Project |
+| :---: | :---: | :---: | :--- | :---: |
+| 2024 | CVPR | Video-MME | [Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis](https://arxiv.org/abs/2405.21075) | [Code](https://github.com/MME-Benchmarks/Video-MME) |
+| 2024 | NeurIPS | MMBench-Video | [MMBench-Video: A Long-Form Multi-Shot Benchmark for Holistic Video Understanding](https://arxiv.org/abs/2406.14515) | [Code](https://github.com/open-compass/VLMEvalKit) |
+| 2025 | arXiv | Video-MME v2 | [Video-MME v2: Evaluating Multimodal LLMs with Cohesive Question Groups on Fresh Videos](https://arxiv.org/abs/2510.21075) | [Code](https://github.com/MME-Benchmarks/Video-MME) |
+| 2025 | ICLR | MMWorld | [MMWorld: Towards Multi-Discipline Multi-Faceted World Model Evaluation in Videos](https://arxiv.org/abs/2406.08407) | [Code](https://github.com/eric-ai-lab/MMWorld) |
 
 #### 5.2.2 Temporal & Spatial Understanding
 
-| Year | Venue | Acronym | Paper | Scale | Code / Project |
-| :---: | :---: | :---: | :--- | :---: | :---: |
-| 2024 | CVPR | MVBench | [MVBench: A Comprehensive Multi-modal Video Understanding Benchmark](https://arxiv.org/abs/2311.17005) | 4K QA | [Code](https://github.com/OpenGVLab/Ask-Anything) |
-| 2024 | ACL | TempCompass | [TempCompass: Do Video LLMs Really Understand Videos?](https://arxiv.org/abs/2403.00476) | 7.5K QA | [Code](https://github.com/llyx97/TempCompass) |
-| 2025 | ACL | TOMATO | [TOMATO: Assessing Visual Temporal Reasoning Capabilities in Multimodal Foundation Models](https://arxiv.org/abs/2410.23266) | 1.5K QA | [Code](https://github.com/yale-nlp/TOMATO) |
-| 2024 | NeurIPS | E.T. Bench | [E.T. Bench: Towards Open-Ended Event-Level Video-Language Understanding](https://arxiv.org/abs/2409.18111) | 7.3K QA | [Code](https://github.com/PolyU-ChenLab/ETBench) |
-| 2025 | ACL | TUNA | [TUNA: Comprehensive Fine-Grained Temporal Understanding Evaluation on Dense Dynamic Videos](https://arxiv.org/abs/2505.20124) | 2.4K QA/Gen | [Project](https://friedrichor.github.io/projects/TUNA) |
-| 2025 | arXiv | TimeLens | [TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs](https://arxiv.org/abs/2512.14698) | 9.4K Annots | [Code](https://github.com/TencentARC/TimeLens) |
-| 2025 | NeurIPS | TVGBench | [Datasets and Recipes for Video Temporal Grounding via Reinforcement Learning](https://arxiv.org/abs/2507.18100) | 2K QA | - |
-| 2025 | arXiv | TimeScope | [TimeScope: Towards Task-Oriented Temporal Grounding in Long Videos](https://arxiv.org/abs/2509.26360) | 337 Vids | - |
-| 2025 | arXiv | MotionBench | [MotionBench: Benchmarking and Improving Fine-grained Video Motion Understanding for Vision Language Models](https://arxiv.org/abs/2501.02955) | 8K QA | [Code](https://github.com/THUDM/MotionBench) |
-| 2025 | arXiv | DSI-Bench | [DSI-Bench: A Benchmark for Dynamic Spatial Intelligence](https://arxiv.org/abs/2510.18873) | 1.7K QA | - |
-| 2025 | arXiv | STI-Bench | [STI-Bench: Are MLLMs Ready for Precise Spatial-Temporal World Understanding?](https://arxiv.org/abs/2503.23765) | 2K QA | [Project](https://mira-sjtu.github.io/STI-Bench.io/) |
-| 2025 | arXiv | SI-Bench | [How Far Are VLMs from Visual Spatial Intelligence? A Benchmark-Driven Perspective](https://arxiv.org/abs/2510.04030) | 8.8K QA | - |
+| Year | Venue | Acronym | Paper | Code / Project |
+| :---: | :---: | :---: | :--- | :---: |
+| 2024 | CVPR | MVBench | [MVBench: A Comprehensive Multi-modal Video Understanding Benchmark](https://arxiv.org/abs/2311.17005) | [Code](https://github.com/OpenGVLab/Ask-Anything) |
+| 2024 | ACL | TempCompass | [TempCompass: Do Video LLMs Really Understand Videos?](https://arxiv.org/abs/2403.00476) | [Code](https://github.com/llyx97/TempCompass) |
+| 2025 | ACL | TOMATO | [TOMATO: Assessing Visual Temporal Reasoning Capabilities in Multimodal Foundation Models](https://arxiv.org/abs/2410.23266) | [Code](https://github.com/yale-nlp/TOMATO) |
+| 2024 | NeurIPS | E.T. Bench | [E.T. Bench: Towards Open-Ended Event-Level Video-Language Understanding](https://arxiv.org/abs/2409.18111) | [Code](https://github.com/PolyU-ChenLab/ETBench) |
+| 2025 | ACL | TUNA | [TUNA: Comprehensive Fine-Grained Temporal Understanding Evaluation on Dense Dynamic Videos](https://arxiv.org/abs/2505.20124) | [Project](https://friedrichor.github.io/projects/TUNA) |
+| 2025 | arXiv | TimeLens | [TimeLens: Rethinking Video Temporal Grounding with Multimodal LLMs](https://arxiv.org/abs/2512.14698) | [Code](https://github.com/TencentARC/TimeLens) |
+| 2025 | NeurIPS | TVGBench | [Datasets and Recipes for Video Temporal Grounding via Reinforcement Learning](https://arxiv.org/abs/2507.18100) | - |
+| 2025 | arXiv | TimeScope | [TimeScope: Towards Task-Oriented Temporal Grounding in Long Videos](https://arxiv.org/abs/2509.26360) | - |
+| 2025 | arXiv | MotionBench | [MotionBench: Benchmarking and Improving Fine-grained Video Motion Understanding for Vision Language Models](https://arxiv.org/abs/2501.02955) | [Code](https://github.com/THUDM/MotionBench) |
+| 2025 | arXiv | DSI-Bench | [DSI-Bench: A Benchmark for Dynamic Spatial Intelligence](https://arxiv.org/abs/2510.18873) | - |
+| 2025 | arXiv | STI-Bench | [STI-Bench: Are MLLMs Ready for Precise Spatial-Temporal World Understanding?](https://arxiv.org/abs/2503.23765) | [Project](https://mira-sjtu.github.io/STI-Bench.io/) |
+| 2025 | arXiv | SI-Bench | [How Far Are VLMs from Visual Spatial Intelligence? A Benchmark-Driven Perspective](https://arxiv.org/abs/2510.04030) | - |
 
 #### 5.2.3 Complex Reasoning
 
-| Year | Venue | Acronym | Paper | Scale | Code / Project |
-| :---: | :---: | :---: | :--- | :---: | :---: |
-| 2025 | arXiv | VCR-Bench | [VCR-Bench: A Comprehensive Evaluation Framework for Video Chain-of-Thought Reasoning](https://arxiv.org/abs/2504.07956) | 1K QA | [Code](https://github.com/zhishuifeiqian/VCR-Bench) |
-| 2025 | arXiv | V-STaR | [V-STaR: Benchmarking Video-LLMs on Video Spatio-Temporal Reasoning](https://arxiv.org/abs/2503.11495) | 2K Videos | [Code](https://github.com/V-STaR-Bench/V-STaR) |
-| 2025 | arXiv | MINERVA | [MINERVA: Evaluating Complex Video Reasoning](https://arxiv.org/abs/2505.00681) | 1.5K QA | [Code](https://github.com/google-deepmind/neptune) |
-| 2025 | ICCV | VideoTT | [Towards Video Thinking Test: A Holistic Benchmark for Advanced Video Reasoning and Understanding](https://arxiv.org/abs/2507.15028) | 5K QA | [Project](https://zhangyuanhan-ai.github.io/video-tt) |
-| 2025 | arXiv | MMR-V | [MMR-V: What's Left Unsaid? A Benchmark for Multimodal Deep Reasoning in Videos](https://arxiv.org/abs/2506.04141) | 1.2K QA | [Project](https://mmr-v.github.io/) |
-| 2025 | arXiv | SEED-Bench-R1 | [Exploring the Effect of Reinforcement Learning on Video Understanding: Insights from SEED-Bench-R1](https://arxiv.org/abs/2503.24376) | 50K QA | [Code](https://github.com/TencentARC/SEED-Bench-R1) |
-| 2026 | ICLR | VideoReasonBench | [VideoReasonBench: Can MLLMs Perform Vision-Centric Complex Video Reasoning?](https://arxiv.org/abs/2505.23359) | 1.4K QA | [Code](https://github.com/llyx97/video_reason_bench) |
-| 2025 | arXiv | Know-Show | [Know-Show: Benchmarking Video-Language Models on Spatio-temporal Grounded Reasoning](https://arxiv.org/abs/2510.10202) | Gen/OE | - |
-| 2026 | arXiv | VideoZeroBench | [VideoZeroBench: Probing the Limits of Video MLLMs with Spatio-Temporal Evidence Verification](https://arxiv.org/abs/2602.09110) | 500 QA | - |
+| Year | Venue | Acronym | Paper | Code / Project |
+| :---: | :---: | :---: | :--- | :---: |
+| 2025 | arXiv | VCR-Bench | [VCR-Bench: A Comprehensive Evaluation Framework for Video Chain-of-Thought Reasoning](https://arxiv.org/abs/2504.07956) | [Code](https://github.com/zhishuifeiqian/VCR-Bench) |
+| 2025 | arXiv | V-STaR | [V-STaR: Benchmarking Video-LLMs on Video Spatio-Temporal Reasoning](https://arxiv.org/abs/2503.11495) | [Code](https://github.com/V-STaR-Bench/V-STaR) |
+| 2025 | arXiv | MINERVA | [MINERVA: Evaluating Complex Video Reasoning](https://arxiv.org/abs/2505.00681) | [Code](https://github.com/google-deepmind/neptune) |
+| 2025 | ICCV | Video-TT | [Towards Video Thinking Test: A Holistic Benchmark for Advanced Video Reasoning and Understanding](https://arxiv.org/abs/2507.15028) | [Project](https://zhangyuanhan-ai.github.io/video-tt) |
+| 2025 | arXiv | MMR-V | [MMR-V: What's Left Unsaid? A Benchmark for Multimodal Deep Reasoning in Videos](https://arxiv.org/abs/2506.04141) | [Project](https://mmr-v.github.io/) |
+| 2025 | arXiv | SEED-Bench-R1 | [Exploring the Effect of Reinforcement Learning on Video Understanding: Insights from SEED-Bench-R1](https://arxiv.org/abs/2503.24376) | [Code](https://github.com/TencentARC/SEED-Bench-R1) |
+| 2026 | ICLR | VideoReasonBench | [VideoReasonBench: Can MLLMs Perform Vision-Centric Complex Video Reasoning?](https://arxiv.org/abs/2505.23359) | [Code](https://github.com/llyx97/video_reason_bench) |
+| 2025 | arXiv | Know-Show | [Know-Show: Benchmarking Video-Language Models on Spatio-temporal Grounded Reasoning](https://arxiv.org/abs/2510.10202) | - |
+| 2026 | arXiv | VideoZeroBench | [VideoZeroBench: Probing the Limits of Video MLLMs with Spatio-Temporal Evidence Verification](https://arxiv.org/abs/2602.09110) | - |
 
 #### 5.2.4 Long-Context & Streaming Understanding
 
-| Year | Venue | Acronym | Paper | Scale | Code / Project |
-| :---: | :---: | :---: | :--- | :---: | :---: |
-| 2025 | CVPR | MLVU | [MLVU: Benchmarking Multi-task Long Video Understanding](https://arxiv.org/abs/2406.04264) | 3.1K QA | [Code](https://github.com/JUNJIE99/MLVU) |
-| 2025 | ICCV | LongVideoBench | [LongVideoBench: A Benchmark for Long-context Interleaved Video-Language Understanding](https://arxiv.org/abs/2407.15754) | 6.6K QA | [Code](https://github.com/longvideobench/LongVideoBench) |
-| 2025 | ICCV | LVBench | [LVBench: An Extreme Long Video Understanding Benchmark](https://arxiv.org/abs/2406.08035) | 1.5K QA | [Code](https://github.com/THUDM/LVBench) |
-| 2025 | AAAI | ALLVB | [ALLVB: All-in-One Long Video Understanding Benchmark](https://arxiv.org/abs/2503.07298) | 252K QA | [Code](https://github.com/sssecret2333/ALLVB) |
-| 2025 | ICLR | CG-Bench | [CG-Bench: Clue-grounded Question Answering Benchmark for Long Video Understanding](https://arxiv.org/abs/2412.12075) | 12K QA | [Code](https://github.com/CG-Bench/CG-Bench) |
-| 2025 | arXiv | MT-Video-Bench | [MT-Video-Bench: A Holistic Video Understanding Benchmark for Evaluating Multimodal LLMs in Multi-Turn Dialogues](https://arxiv.org/abs/2510.17722) | 5.8K QA | [Code](https://github.com/Open-Source-LLM/MT-Video-Bench) |
-| 2025 | ICLR | StreamBench | [StreamBench: Streaming Video Understanding and Multi-round Interaction with Memory-enhanced Knowledge](https://arxiv.org/abs/2406.08085) | 1.8K QA | - |
-| 2025 | CVPR | OVO-Bench | [OVO-Bench: How Far is Your Video-LLMs from Real-World Online Video Understanding?](https://arxiv.org/abs/2501.05510) | 2.8K QA | [Code](https://github.com/JoeLeelyf/OVO-Bench) |
-| 2025 | ICLR | SVBench | [SVBench: A Benchmark with Temporal Multi-turn Dialogues for Streaming Video Understanding](https://arxiv.org/abs/2502.10810) | Chat | [Code](https://github.com/yzy-bupt/SVBench) |
-| 2025 | CVPR | OmniMMI | [OmniMMI: A Comprehensive Multi-modal Interaction Benchmark in Streaming Video Contexts](https://arxiv.org/abs/2503.22952) | Chat | [Project](https://omnimmi.github.io/) |
-| 2025 | ICCV | Flash-VStream | [Flash-VStream: Memory-Based Real-Time Understanding for Long Video Streams](https://arxiv.org/abs/2406.08085) | Chat | [Code](https://github.com/IVGSZ/Flash-VStream) |
-| 2025 | NeurIPS | RTV-Bench | [RTV-Bench: Benchmarking MLLM Continuous Perception, Understanding and Reasoning through Real-Time Video](https://arxiv.org/abs/2505.02064) | 4.6K MCQ | [Code](https://github.com/LJungang/RTV-Bench) |
+| Year | Venue | Acronym | Paper | Code / Project |
+| :---: | :---: | :---: | :--- | :---: |
+| 2025 | CVPR | MLVU | [MLVU: Benchmarking Multi-task Long Video Understanding](https://arxiv.org/abs/2406.04264) | [Code](https://github.com/JUNJIE99/MLVU) |
+| 2025 | ICCV | LongVideoBench | [LongVideoBench: A Benchmark for Long-context Interleaved Video-Language Understanding](https://arxiv.org/abs/2407.15754) | [Code](https://github.com/longvideobench/LongVideoBench) |
+| 2025 | ICCV | LVBench | [LVBench: An Extreme Long Video Understanding Benchmark](https://arxiv.org/abs/2406.08035) | [Code](https://github.com/THUDM/LVBench) |
+| 2025 | AAAI | ALLVB | [ALLVB: All-in-One Long Video Understanding Benchmark](https://arxiv.org/abs/2503.07298) | [Code](https://github.com/sssecret2333/ALLVB) |
+| 2025 | ICLR | CG-Bench | [CG-Bench: Clue-grounded Question Answering Benchmark for Long Video Understanding](https://arxiv.org/abs/2412.12075) | [Code](https://github.com/CG-Bench/CG-Bench) |
+| 2025 | arXiv | MT-Video-Bench | [MT-Video-Bench: A Holistic Video Understanding Benchmark for Evaluating Multimodal LLMs in Multi-Turn Dialogues](https://arxiv.org/abs/2510.17722) | [Code](https://github.com/Open-Source-LLM/MT-Video-Bench) |
+| 2024 | NeurIPS D&B | StreamingBench | [StreamingBench: Assessing the Gap for MLLMs to Achieve Streaming Video Understanding](https://arxiv.org/abs/2411.03628) | [Code](https://github.com/THUDM/StreamingBench) |
+| 2025 | CVPR | OVO-Bench | [OVO-Bench: How Far is Your Video-LLMs from Real-World Online Video Understanding?](https://arxiv.org/abs/2501.05510) | [Code](https://github.com/JoeLeelyf/OVO-Bench) |
+| 2025 | ICLR | SVBench | [SVBench: A Benchmark with Temporal Multi-turn Dialogues for Streaming Video Understanding](https://arxiv.org/abs/2502.10810) | [Code](https://github.com/yzy-bupt/SVBench) |
+| 2025 | CVPR | OmniMMI | [OmniMMI: A Comprehensive Multi-modal Interaction Benchmark in Streaming Video Contexts](https://arxiv.org/abs/2503.22952) | [Project](https://omnimmi.github.io/) |
+| 2025 | ICCV | VStream-QA | [Flash-VStream: Memory-Based Real-Time Understanding for Long Video Streams](https://arxiv.org/abs/2406.08085) | [Code](https://github.com/IVGSZ/Flash-VStream) |
+| 2025 | NeurIPS | RTV-Bench | [RTV-Bench: Benchmarking MLLM Continuous Perception, Understanding and Reasoning through Real-Time Video](https://arxiv.org/abs/2505.02064) | [Code](https://github.com/LJungang/RTV-Bench) |
 
 #### 5.2.5 Domain-Specific Knowledge
 
-| Year | Venue | Acronym | Paper | Scale | Code / Project |
-| :---: | :---: | :---: | :--- | :---: | :---: |
-| 2025 | CVPR | MMVU | [MMVU: Measuring Expert-Level Multi-Discipline Video Understanding](https://arxiv.org/abs/2501.12380) | 3K QA | [Code](https://github.com/yale-nlp/MMVU) |
-| 2025 | arXiv | Video-MMMU | [Video-MMMU: Evaluating Knowledge Acquisition from Multi-Discipline Professional Videos](https://arxiv.org/abs/2501.13826) | 900 QA | [Code](https://github.com/EvolvingLMMs-Lab/VideoMMMU) |
-| 2025 | arXiv | ExpVid | [ExpVid: A Benchmark for Experiment Video Understanding & Reasoning](https://arxiv.org/abs/2510.11606) | 7.8K QA/Gen | - |
-| 2025 | arXiv | Video-MMLU | [Video-MMLU: A Massive Multi-Discipline Lecture Understanding Benchmark](https://arxiv.org/abs/2504.14693) | 15.7K QA | [Code](https://github.com/Espere-1119-Song/Video-MMLU) |
-| 2025 | arXiv | BEAR | [BEAR: Benchmarking and Enhancing Multimodal Language Models for Atomic Embodied Capabilities](https://arxiv.org/abs/2510.08759) | MCQ/OE | [Code](https://github.com/aiwen-li/BEAR) |
+| Year | Venue | Acronym | Paper | Code / Project |
+| :---: | :---: | :---: | :--- | :---: |
+| 2025 | CVPR | MMVU | [MMVU: Measuring Expert-Level Multi-Discipline Video Understanding](https://arxiv.org/abs/2501.12380) | [Code](https://github.com/yale-nlp/MMVU) |
+| 2025 | arXiv | Video-MMMU | [Video-MMMU: Evaluating Knowledge Acquisition from Multi-Discipline Professional Videos](https://arxiv.org/abs/2501.13826) | [Code](https://github.com/EvolvingLMMs-Lab/VideoMMMU) |
+| 2025 | arXiv | ExpVid | [ExpVid: A Benchmark for Experiment Video Understanding & Reasoning](https://arxiv.org/abs/2510.11606) | - |
+| 2025 | arXiv | Video-MMLU | [Video-MMLU: A Massive Multi-Discipline Lecture Understanding Benchmark](https://arxiv.org/abs/2504.14693) | [Code](https://github.com/Espere-1119-Song/Video-MMLU) |
+| 2025 | arXiv | BEAR | [BEAR: Benchmarking and Enhancing Multimodal Language Models for Atomic Embodied Capabilities](https://arxiv.org/abs/2510.08759) | [Code](https://github.com/aiwen-li/BEAR) |
 
 #### 5.2.6 Omnimodal Collaboration
 
-| Year | Venue | Acronym | Paper | Scale | Code / Project |
-| :---: | :---: | :---: | :--- | :---: | :---: |
-| 2025 | arXiv | WorldSense | [WorldSense: Evaluating Real-world Omnimodal Understanding for Multimodal LLMs](https://arxiv.org/abs/2502.04326) | 3.1K QA | [Code](https://github.com/jaaackhongggg/WorldSense) |
-| 2025 | arXiv | OmniVideoBench | [OmniVideoBench: Towards Audio-Visual Understanding Evaluation for Omni MLLMs](https://arxiv.org/abs/2510.10689) | 1K QA/OE | - |
-| 2025 | CVPR | LongVALE | [LongVALE: Vision-Audio-Language-Event Benchmark Towards Time-Aware Omni-Modal Perception of Long Videos](https://arxiv.org/abs/2411.19772) | 105K Events | [Code](https://github.com/ttgeng233/LongVALE) |
-| 2025 | arXiv | LongInsightBench | [LongInsightBench: A Comprehensive Benchmark for Evaluating Omni-Modal Models on Human-Centric Long-Video Understanding](https://arxiv.org/abs/2510.21703) | 4.8K QA | - |
-| 2025 | arXiv | LVOmniBench | [LVOmniBench: Pioneering Long Audio-Video Understanding Evaluation for Omnimodal LLMs](https://arxiv.org/abs/2510.18269) | MCQ | - |
-| 2025 | arXiv | MMOU | [MMOU: A Massive Multi-task Omni Understanding and Reasoning Benchmark for Long and Complex Real-World Videos](https://arxiv.org/abs/2510.07298) | 15K QA | - |
-| 2026 | ICLR | Omni-Captioner | [OmniCaptioner: One Captioner to Rule Them All](https://arxiv.org/abs/2504.07089) | 69.6K Cloze | [Code](https://github.com/Alpha-Innovator/OmniCaptioner) |
-| 2026 | arXiv | OMD-Bench | [OMD-Bench: Systematically Breaking Modality Consensus to Probe Robustness and Calibrated Abstention](https://arxiv.org/abs/2602.13156) | MCQ/OE | - |
-| 2026 | arXiv | LiViBench | [LiViBench: An Omnimodal Benchmark for Interactive Livestream Video Understanding](https://arxiv.org/abs/2602.07014) | MCQ | - |
+| Year | Venue | Acronym | Paper | Code / Project |
+| :---: | :---: | :---: | :--- | :---: |
+| 2025 | arXiv | WorldSense | [WorldSense: Evaluating Real-world Omnimodal Understanding for Multimodal LLMs](https://arxiv.org/abs/2502.04326) | [Code](https://github.com/jaaackhongggg/WorldSense) |
+| 2025 | arXiv | OmniVideoBench | [OmniVideoBench: Towards Audio-Visual Understanding Evaluation for Omni MLLMs](https://arxiv.org/abs/2510.10689) | - |
+| 2025 | CVPR | LongVALE | [LongVALE: Vision-Audio-Language-Event Benchmark Towards Time-Aware Omni-Modal Perception of Long Videos](https://arxiv.org/abs/2411.19772) | [Code](https://github.com/ttgeng233/LongVALE) |
+| 2025 | arXiv | LongInsightBench | [LongInsightBench: A Comprehensive Benchmark for Evaluating Omni-Modal Models on Human-Centric Long-Video Understanding](https://arxiv.org/abs/2510.21703) | - |
+| 2025 | arXiv | LVOmniBench | [LVOmniBench: Pioneering Long Audio-Video Understanding Evaluation for Omnimodal LLMs](https://arxiv.org/abs/2510.18269) | - |
+| 2025 | arXiv | MMOU | [MMOU: A Massive Multi-task Omni Understanding and Reasoning Benchmark for Long and Complex Real-World Videos](https://arxiv.org/abs/2510.07298) | - |
+| 2026 | ICLR | OmniCaptioner | [OmniCaptioner: One Captioner to Rule Them All](https://arxiv.org/abs/2504.07089) | [Code](https://github.com/Alpha-Innovator/OmniCaptioner) |
+| 2026 | arXiv | OMD-Bench | [OMD-Bench: Systematically Breaking Modality Consensus to Probe Robustness and Calibrated Abstention](https://arxiv.org/abs/2602.13156) | - |
+| 2026 | arXiv | LiViBench | [LiViBench: An Omnimodal Benchmark for Interactive Livestream Video Understanding](https://arxiv.org/abs/2602.07014) | - |
 
 ---
 
