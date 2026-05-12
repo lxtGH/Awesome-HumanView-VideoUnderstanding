@@ -4,7 +4,6 @@
 <p align="center">
   <h1 align="center">Watch, Remember, Reason: Human-View Video Understanding with MLLMs</h1>
   <p align="center">
-    T-PAMI, 2026
     <br />
     <a href="https://marinero4972.github.io/"><strong>Jiahao Meng</strong></a>
     ·
