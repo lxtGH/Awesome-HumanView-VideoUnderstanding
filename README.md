@@ -7,9 +7,9 @@
     <br />
     <a href="https://marinero4972.github.io/"><strong>Jiahao Meng</strong></a>
     ·
-    <strong>Yue Tan</strong>
+    <a href="https://openreview.net/profile?id=~Tan_Yue2"><strong>Yue Tan</strong></a>
     ·
-    <strong>Qi Xu</strong>
+    <a href="https://scholar.google.com/citations?user=iR92lkAAAAAJ&hl=en"> <strong>Qi Xu</strong> </a>
     ·
     <strong>Kuan Gao</strong>
     ·
